@@ -76,3 +76,37 @@ p {
   color: #fff;
   text-decoration: none;
 }
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a {
+  color: #000;
+}
+
+footer a:hover {
+  color: pink;
+  text-decoration: none;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
