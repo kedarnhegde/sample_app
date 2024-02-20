@@ -77,6 +77,15 @@ p {
   text-decoration: none;
 }
 
+.tweeter-navbar {
+  background-color: #444;
+  color: #ddd;
+}
+
+.nav-items:hover {
+  background-color: hsla(0, 0%, 100%, 0.1);
+}
+
 /* footer */
 
 footer {
@@ -93,7 +102,7 @@ footer a {
 }
 
 footer a:hover {
-  color: pink;
+  color: #e01728;
   text-decoration: none;
 }
 
@@ -193,4 +202,23 @@ input {
   .form-control {
     color: red;
   }
+}
+
+.login-button {
+  margin-bottom: 20px;
+  color: white;
+  background-color: #e01728;
+}
+.login-button:hover {
+  color: white;
+  background-color: #c8102e;
+}
+
+.signup-link {
+  text-decoration: none;
+  color: green;
+}
+.signup-link:hover {
+  text-decoration: none;
+  color: #e01728;
 }
