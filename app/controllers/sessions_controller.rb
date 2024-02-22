@@ -6,21 +6,16 @@ class SessionsController < ApplicationController
     user = User.find_by(email: params[:session][:email].downcase)
     if user 
       if user.authenticate(params[:session][:password])
-        puts "Success!"
+        log_in user
+        redirect_to user
       else
-        flash[:danger] = "Incorrect password for '#{params[:session][:email].downcase}' Please try again!"
+        flash.now[:danger] = "Incorrect password for '#{params[:session][:email].downcase}' Please try again!"
         render 'new'
       end
     else
-      flash[:danger] = "Email / User doesn't exist. Please check the email ID you entered"
+      flash.now[:danger] = "Email / User doesn't exist. Please check the email ID you entered"
       render 'new'
     end
-    # if user && user.authenticate(params[:session][:password])
-    #   puts "Success!!"
-    # else
-    #   flash[:danger] = "Invalid email/password combination"
-    #   render 'new'
-    # end
   end
 
   def destroy
