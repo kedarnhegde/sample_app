@@ -222,3 +222,18 @@ input {
   text-decoration: none;
   color: #c8102e;
 }
+
+.checkbox {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  span {
+    margin-left: 20px;
+    font-weight: 400;
+    color: #333;
+  }
+}
+
+#session_remember_me {
+  width: auto;
+  margin-left: 0;
+}
