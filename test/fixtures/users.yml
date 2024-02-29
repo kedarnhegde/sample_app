@@ -2,3 +2,8 @@ kedar:
   name: Kedar Hegde
   email: kedar.hegde@andpad.co.jp
   password_digest: <%= User.digest('password123') %>
+
+lando:
+  name: Lando Norris
+  email: lando.norris@mclaren.co.jp
+  password_digest: <%= User.digest('password123') %>
