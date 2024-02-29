@@ -204,12 +204,12 @@ input {
   }
 }
 
-.login-button {
+.red-button {
   margin-bottom: 20px;
   color: white;
   background-color: #e01728;
 }
-.login-button:hover {
+.red-button:hover {
   color: white;
   background-color: #c8102e;
 }
@@ -236,4 +236,12 @@ input {
 #session_remember_me {
   width: auto;
   margin-left: 0;
+}
+
+.chage-gravatar-link {
+  color: green;
+}
+.chage-gravatar-link:hover {
+  color: #c8102e;
+  text-decoration: none;
 }
