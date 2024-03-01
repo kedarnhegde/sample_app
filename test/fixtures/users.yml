@@ -2,6 +2,7 @@ kedar:
   name: Kedar Hegde
   email: kedar.hegde@andpad.co.jp
   password_digest: <%= User.digest('password123') %>
+  admin: true
 
 lando:
   name: Lando Norris
