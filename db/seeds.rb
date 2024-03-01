@@ -1,7 +1,8 @@
 User.create!(name:  "Kedar Hegde",
              email: "kedar.hegde@andpad.co.jp",
              password:              "password123",
-             password_confirmation: "password123")
+             password_confirmation: "password123",
+             admin: true)
 
 User.create!(name:  "ケダル へぐで",
              email: "kedar.hegde+001@andpad.co.jp",
