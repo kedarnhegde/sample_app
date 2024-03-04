@@ -2,12 +2,16 @@ User.create!(name:  "Kedar Hegde",
              email: "kedar.hegde@andpad.co.jp",
              password:              "password123",
              password_confirmation: "password123",
-             admin: true)
+             admin: true,
+             activated: true,
+             activated_at: Time.zone.now)
 
 User.create!(name:  "ケダル へぐで",
              email: "kedar.hegde+001@andpad.co.jp",
              password:              "password123",
-             password_confirmation: "password123")
+             password_confirmation: "password123",
+             activated: true,
+             activated_at: Time.zone.now)
 
 99.times do |n|
   name  = Faker::Name.name
@@ -16,6 +20,8 @@ User.create!(name:  "ケダル へぐで",
   User.create!(name:  name,
                email: email,
                password:              password,
-               password_confirmation: password)
+               password_confirmation: password,
+               activated: true,
+               activated_at: Time.zone.now)
 end
 
