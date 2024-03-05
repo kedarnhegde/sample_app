@@ -3,15 +3,21 @@ kedar:
   email: kedar.hegde@andpad.co.jp
   password_digest: <%= User.digest('password123') %>
   admin: true
+  activated: true
+  activated_at: <%= Time.zone.now %>
 
 lando:
   name: Lando Norris
   email: lando.norris@mclaren.co.jp
   password_digest: <%= User.digest('password123') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
 
 <% 30.times do |n| %>
 user_<%= n %>:
   name:  <%= "User #{n}" %>
   email: <%= "user-#{n}@example.com" %>
   password_digest: <%= User.digest('password123') %>
+  activated: true
+  activated_at: <%= Time.zone.now %>
 <% end %>
