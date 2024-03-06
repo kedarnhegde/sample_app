@@ -255,3 +255,12 @@ input {
     border-bottom: 1px solid #ddd;
   }
 }
+
+.forgot_password {
+  color: green;
+}
+
+.forgot_password:hover {
+  color: #c8102e;
+  text-decoration: none;
+}
