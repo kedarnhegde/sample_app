@@ -224,7 +224,7 @@ input {
 }
 
 .checkbox {
-  margin-top: -10px;
+  margin-top: 10px;
   margin-bottom: 10px;
   span {
     margin-left: 20px;
@@ -254,4 +254,13 @@ input {
     padding: 10px 0;
     border-bottom: 1px solid #ddd;
   }
+}
+
+.forgot_password {
+  color: green;
+}
+
+.forgot_password:hover {
+  color: #c8102e;
+  text-decoration: none;
 }
