@@ -349,3 +349,12 @@ span.picture input {
 .timestamp {
   color: $gray-light;
 }
+
+.view-my-profile {
+  color: green;
+}
+
+.view-my-profile:hover {
+  color: #c8102e;
+  text-decoration: none;
+}
