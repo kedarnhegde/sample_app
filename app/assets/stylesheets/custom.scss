@@ -264,3 +264,106 @@ input {
   color: #c8102e;
   text-decoration: none;
 }
+
+.microposts {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.microposts li {
+  padding: 10px 0;
+  border-top: 1px solid #e8e8e8;
+  margin-left: 0;
+}
+
+.user {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.content {
+  display: block;
+  margin-left: 20px;
+}
+
+.content img {
+  display: block;
+  padding: 5px 0;
+}
+
+.timestamp {
+  color: $gray-light;
+  display: block;
+  margin-left: 20px;
+}
+
+.gravatar {
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+aside textarea {
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+span.picture {
+  margin-top: 10px;
+}
+
+span.picture input {
+  border: 0;
+}
+
+.microposts li {
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+
+.micropost-content {
+  display: flex;
+  align-items: center;
+}
+
+.micropost-content img {
+  margin-right: 10px; /* Adjust as needed */
+}
+
+.micropost-text {
+  flex: 1;
+}
+
+.user {
+  display: block;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.content {
+  display: block;
+  margin-top: 5px; /* Adjust as needed */
+}
+
+.timestamp {
+  color: $gray-light;
+}
+
+.view-my-profile {
+  color: green;
+}
+
+.view-my-profile:hover {
+  color: #c8102e;
+  text-decoration: none;
+}
+
+.red-text {
+  color: #e01728;
+}
+
+.red-text:hover {
+  color: #c8102e;
+  text-decoration: none;
+}
