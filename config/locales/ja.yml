@@ -8,3 +8,13 @@ ja:
     profile: "プロファイル"
     settings: "個人設定"
     logout: "ログアウト"
+  buttons:
+    post: "送信"
+    save: "保存する"
+    delete: "削除"
+    follow: "フォロー"
+    unfollow: "アンフォロワー"
+    view_my_profile: "自分のプロファイルへ"
+    view_profile: "プロファイルへ"
+    followers: "フォロワー"
+    following: "フォロイング"
