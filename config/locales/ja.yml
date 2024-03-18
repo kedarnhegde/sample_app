@@ -1,0 +1,10 @@
+ja:
+  navbar:
+    home: "ホーム"
+    help: "ヘルプ"
+    login: "ログイン"
+    account: "アカウント"
+    users: "ユーザー"
+    profile: "プロファイル"
+    settings: "個人設定"
+    logout: "ログアウト"

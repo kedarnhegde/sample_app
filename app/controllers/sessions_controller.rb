@@ -4,11 +4,12 @@ class SessionsController < ApplicationController
 
   def create
     user = User.find_by(email: params[:session][:email].downcase)
-    if user 
+    if user
       if user.authenticate(params[:session][:password])
         if user.activated?
           log_in user
           params[:session][:remember_me] == '1' ? remember(user) : forget(user)
+          I18n.locale = user.locale
           redirect_to_prev user
         else
           message = "Account not activated. "
