@@ -1,5 +1,5 @@
 <% provide(:title, "Edit user") %>
-<h1>Update your profile</h1>
+<h1><%= t('title.update_profile') %></h1>
 
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
@@ -23,7 +23,7 @@
 
     <div class="gravatar_edit">
       <%= gravatar_for @user %>
-      <a href="http://gravatar.com/emails" target="_blank" class="chage-gravatar-link">Change Gravatar Image</a>
+      <a href="http://gravatar.com/emails" target="_blank" class="chage-gravatar-link"><%= t('buttons.change_image') %></a>
     </div>
   </div>
 </div>

@@ -18,3 +18,11 @@ ja:
     view_profile: "プロファイルへ"
     followers: "フォロワー"
     following: "フォロイング"
+    change_image: "グラバター画像を変更"
+  title:
+    update_profile: "プロファイル変更"
+    user_list: "ユーザー一覧"
+    micropost_feed: "マイクロポストフィード"
+    micropost: "マイクロポスト"
+    microposts: "マイクロポスト"
+    help: "手伝わせてください"

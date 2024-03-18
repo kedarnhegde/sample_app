@@ -6,7 +6,7 @@ en:
     account: "Account"
     users: "Users"
     profile: "Profile"
-    settings: "Settings"
+    settings: "My Settings"
     logout: "Logout"
   buttons:
     post: "Post"
@@ -18,3 +18,11 @@ en:
     view_profile: "view profile"
     followers: "followers"
     following: "following"
+    change_image: "Change Gravatar Image"
+  title:
+    update_profile: "Update your profile"
+    user_list: "Users List"
+    micropost_feed: "Micropost Feed"
+    micropost: "Micropost"
+    microposts: "Microposts"
+    help: "LOST? LET ME HELP YOU"
