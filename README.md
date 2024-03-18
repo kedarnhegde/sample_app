@@ -57,3 +57,16 @@ The setup is now ready. Run the following command to start the server:
 ```
 
 You can either create a new user or log-in through an existing user (refer seeds).
+
+
+To run tests: 
+
+```
+% rails t
+```
+
+To access rails console:
+
+```
+% rails c
+```
