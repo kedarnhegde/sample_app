@@ -26,11 +26,16 @@ ja:
     micropost: "マイクロポスト"
     microposts: "マイクロポスト"
     help: "手伝わせてください"
+    about: "自分について"
+    contact: "お問い合わせ"
   others:
     micropost_placeholder: "今日はどうでしたか?"
     help: "お役に立てれば幸いです。"
     help_ja: "までご連絡ください。"
     time_ago: "%{time}前に投稿"
+    about: "ケダルへぐでです。railsを勉強しています。"
+    github: ""
+    github_ja: "を見てください！"
   footer:
     copyright: "著作権 © ケダルへぐでとロビ（「ツイーター」という名前に対して）｜株式会社アンドパッド｜2024"
     about: "アバウト"

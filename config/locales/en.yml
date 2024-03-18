@@ -26,11 +26,16 @@ en:
     micropost: "Micropost"
     microposts: "Microposts"
     help: "LOST? LET ME HELP YOU"
+    about: "ABOUT ME"
+    contact: "CONTACT ME"
   others:
     micropost_placeholder: "Write what's on your mind..."
     help: "I hope I can help you, reach me at - "
     help_ja: ""
     time_ago: "Posted %{time} ago"
+    about: "I am Kedar Hegde. I am learning Rails."
+    github: "Please visit my "
+    github_ja: ""
   footer:
     copyright: 'Copyright © Kedar Hegde and Robbi (for the name "Tweeter") | 株式会社 アンドパッド | 2024'
     about: "About"
