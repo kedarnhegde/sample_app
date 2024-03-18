@@ -1,9 +1,9 @@
 <%= form_for(@micropost) do |f| %>
     <%= render 'shared/error_messages', object: f.object %>
     <div class="field">
-      <%= f.text_area :content, placeholder: "Write what's on your mind..." %>
+      <%= f.text_area :content, placeholder: t('others.micropost_placeholder') %>
     </div>
-    <%= f.submit "Post", class: "btn red-button" %>
+    <%= f.submit t('buttons.post'), class: "btn red-button" %>
     <span class="picture">
         <%= f.file_field :picture, accept: 'image/jpeg,image/gif,image/png' %>
     </span>

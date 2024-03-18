@@ -11,7 +11,8 @@ User.create!(name:  "ケダル へぐで",
              password:              "password123",
              password_confirmation: "password123",
              activated: true,
-             activated_at: Time.zone.now)
+             activated_at: Time.zone.now,
+             locale: "ja")
 
 99.times do |n|
   name  = Faker::Name.name

@@ -1,0 +1,56 @@
+ja:
+  navbar:
+    home: "ホーム"
+    help: "ヘルプ"
+    login: "ログイン"
+    account: "アカウント"
+    users: "ユーザー"
+    profile: "プロファイル"
+    settings: "個人設定"
+    logout: "ログアウト"
+  buttons:
+    post: "送信"
+    save: "保存する"
+    delete: "削除"
+    follow: "フォロー"
+    unfollow: "アンフォロワー"
+    view_my_profile: "自分のプロファイルへ"
+    view_profile: "プロファイルへ"
+    followers: "フォロワー"
+    following: "フォロイング"
+    change_image: "グラバター画像を変更"
+  title:
+    update_profile: "プロファイル変更"
+    user_list: "ユーザー一覧"
+    micropost_feed: "フィード"
+    micropost: "マイクロポスト"
+    microposts: "マイクロポスト"
+    help: "手伝わせてください"
+    about: "自分について"
+    contact: "お問い合わせ"
+  others:
+    micropost_placeholder: "今日はどうでしたか?"
+    help: "お役に立てれば幸いです。"
+    help_ja: "までご連絡ください。"
+    time_ago: "%{time}前に投稿"
+    about: "ケダルへぐでです。railsを勉強しています。"
+    github: ""
+    github_ja: "を見てください！"
+  footer:
+    copyright: "著作権 © ケダルへぐでとロビ（「Tweeter」という名前に対して）｜株式会社アンドパッド｜2024"
+    about: "アバウト"
+    contact: "コンタクト"
+    news: "ニュース"
+  form:
+    name: "名前"
+    email: "Eメール"
+    password: "パスワード"
+    password_confirmation: "パスワード (もう一度)"
+
+  # ignore in English since it's already defined
+  datetime:
+    distance_in_words:
+      x_minutes: "%{count}分"
+      about_x_hours: "約%{count}時間"
+      about_x_months: "約%{count}ヶ月"
+      about_x_years: "約%{count}年"
