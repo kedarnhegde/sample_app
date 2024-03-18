@@ -31,6 +31,12 @@ ja:
     help: "お役に立てれば幸いです。"
     help_ja: "までご連絡ください。"
     time_ago: "%{time}前に投稿"
+  footer:
+    copyright: "著作権 © ケダルへぐでとロビ（「ツイーター」という名前に対して）｜株式会社アンドパッド｜2024"
+    about: "アバウト"
+    contact: "コンタクト"
+    news: "ニュース"
+
   # ignore in English since it's already defined
   datetime:
     distance_in_words:

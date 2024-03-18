@@ -31,3 +31,8 @@ en:
     help: "I hope I can help you, reach me at - "
     help_ja: ""
     time_ago: "Posted %{time} ago"
+  footer:
+    copyright: 'Copyright © Kedar Hegde and Robbi (for the name "Tweeter") | 株式会社 アンドパッド | 2024'
+    about: "About"
+    contact: "Contact"
+    news: "News"
