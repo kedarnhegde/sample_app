@@ -43,6 +43,6 @@ en:
     news: "News"
   form:
     name: "Name"
-    emial: "email"
+    email: "email"
     password: "Password"
     password_confirmation: "Confirm Password"
