@@ -9,7 +9,6 @@ class SessionsController < ApplicationController
         if user.activated?
           log_in user
           params[:session][:remember_me] == '1' ? remember(user) : forget(user)
-          I18n.locale = user.locale
           redirect_to_prev user
         else
           message = "Account not activated. "
