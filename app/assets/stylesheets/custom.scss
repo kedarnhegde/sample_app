@@ -367,3 +367,46 @@ span.picture input {
   color: #c8102e;
   text-decoration: none;
 }
+
+.stats {
+  overflow: auto;
+  margin-top: 0;
+  padding: 0;
+  a:hover {
+    text-decoration: none;
+    color: #c8102e;
+  }
+  strong {
+    display: block;
+  }
+}
+
+.following {
+  color: gray;
+  padding-left: 0;
+  padding-right: 30px;
+  border: 0;
+
+  float: left;
+}
+.followers {
+  color: gray;
+  padding-left: 30px;
+  border-left: 1px solid $gray-lighter;
+  float: left;
+}
+
+.user_avatars {
+  overflow: auto;
+  margin-top: 10px;
+  .gravatar {
+    margin: 1px 1px;
+  }
+  a {
+    padding: 0;
+  }
+}
+
+.users.follow {
+  padding: 0;
+}

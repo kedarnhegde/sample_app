@@ -69,4 +69,29 @@ class UserTest < ActiveSupport::TestCase
       @user.destroy
     end
   end
+  test "should follow and unfollow a user" do
+    kedar = users(:kedar)
+    lando  = users(:lando)
+    assert_not kedar.following?(lando)
+    kedar.follow(lando)
+    assert kedar.following?(lando)
+    assert lando.followers.include?(kedar)
+    kedar.unfollow(lando)
+    assert_not kedar.following?(lando)
+  end
+
+  test "fedd should have the right posts" do
+    kedar = users(:kedar)
+    user1 = users(:user_1)
+    user2 = users(:user_2)
+    kedar.microposts.each do |post_following|
+      assert kedar.feed.include?(post_following)
+    end
+    user1.microposts.each do |post_following|
+      assert kedar.feed.include?(post_following)
+    end
+    user2.microposts.each do |post_following|
+      assert kedar.feed.include?(post_following)
+    end
+  end
 end
