@@ -5,6 +5,10 @@ This is a dev-env only application and need to have basic requirements.
 - ruby@2.7.4
 - rails@5.1.6
 
+## The main guide for this is:
+
+https://railstutorial.jp/
+
 ## The features in this app are:
 
 - Create a new user.
