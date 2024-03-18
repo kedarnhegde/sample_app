@@ -41,3 +41,8 @@ en:
     about: "About"
     contact: "Contact"
     news: "News"
+  form:
+    name: "Name"
+    emial: "email"
+    password: "Password"
+    password_confirmation: "Confirm Password"

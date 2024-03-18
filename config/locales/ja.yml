@@ -41,6 +41,11 @@ ja:
     about: "アバウト"
     contact: "コンタクト"
     news: "ニュース"
+  form:
+    name: "名前"
+    email: "Eメール"
+    password: "パスワード"
+    password_confirmation: "パスワード (もう一度)"
 
   # ignore in English since it's already defined
   datetime:
