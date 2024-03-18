@@ -26,3 +26,14 @@ ja:
     micropost: "マイクロポスト"
     microposts: "マイクロポスト"
     help: "手伝わせてください"
+  others:
+    micropost_placeholder: "今日はどうでしたか?"
+    help: "お役に立てれば幸いです。"
+    help_ja: "までご連絡ください。"
+    time_ago: "%{time}前に投稿"
+  # ignore in English since it's already defined
+  datetime:
+    distance_in_words:
+      about_x_hours: "約%{count}時間"
+      about_x_months: "約%{count}ヶ月"
+      about_x_years: "約%{count}年"

@@ -26,3 +26,8 @@ en:
     micropost: "Micropost"
     microposts: "Microposts"
     help: "LOST? LET ME HELP YOU"
+  others:
+    micropost_placeholder: "Write what's on your mind..."
+    help: "I hope I can help you, reach me at - "
+    help_ja: ""
+    time_ago: "Posted %{time} ago"
