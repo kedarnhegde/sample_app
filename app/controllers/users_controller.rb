@@ -33,7 +33,7 @@ class UsersController < ApplicationController
   def update
     @user = User.find(params[:id])
     if @user.update_attributes(user_params)
-      flash[:success] = "Succesfully Updated the details of #{@user.name}!"
+      flash[:success] = I18n.t 'flash.user_updated', name: @user.name
       redirect_to @user
     else
       render 'edit'
@@ -42,7 +42,7 @@ class UsersController < ApplicationController
 
   def destroy
     User.find(params[:id]).destroy
-    flash[:success] = "User Deleted Successfully"
+    flash[:success] = I18n.t 'flash.user_deleted'
     redirect_to users_url
   end
 
@@ -62,7 +62,7 @@ class UsersController < ApplicationController
 
 
   private
-  
+
   def user_params
     params.require(:user).permit(:name, :email, :password, :password_confirmation)
   end

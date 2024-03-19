@@ -5,7 +5,7 @@ class MicropostsController < ApplicationController
     def create
         @micropost = current_user.microposts.build(micropost_params)
         if @micropost.save
-            flash[:success] = "Micropost created!"
+            flash[:success] = I18n.t 'flash.micropost_created'
             redirect_to root_url
         else
             @feed_items = []
@@ -15,11 +15,11 @@ class MicropostsController < ApplicationController
 
     def destroy
         @micropost.destroy
-        flash[:success] = "Micropost was successfully deleted"
+        flash[:success] = I18n.t 'flash.micropost_deleted'
         redirect_to request.referrer || root_url
     end
 
-    private 
+    private
 
     def micropost_params
         params.require(:micropost).permit(:content, :picture)

@@ -46,3 +46,8 @@ en:
     email: "email"
     password: "Password"
     password_confirmation: "Confirm Password"
+  flash:
+    micropost_created: "Micropost was successfully created!"
+    micropost_deleted: "Micropost was successfully deleted"
+    user_updated: "Succesfully updated the details of %{name}!"
+    user_deleted: "User was deleted successfully"

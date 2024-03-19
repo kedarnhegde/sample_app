@@ -46,6 +46,11 @@ ja:
     email: "Eメール"
     password: "パスワード"
     password_confirmation: "パスワード (もう一度)"
+  flash:
+    micropost_created: "マイクロポストが作成されました！"
+    micropost_deleted: "マイクロポストが削除されました！"
+    user_updated: "%{name}の情報が更新されました!"
+    user_deleted: "ユーザーが削除されました！"
 
   # ignore in English since it's already defined
   datetime:
